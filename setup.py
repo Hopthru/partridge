@@ -20,7 +20,7 @@ with io.open("partridge/__version__.py", "r", encoding="utf-8") as f:
 requirements = [
     "charset_normalizer",
     'functools32;python_version<"3"',
-    "networkx>=2.0",
+    "networkx>=2.8.8",
     "pandas",
     "isoweek",
 ]
